@@ -29,4 +29,52 @@ public class Users {
     @Column(name = "current_plan")
     private String currentPlan;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getLikedSongs() {
+        return likedSongs;
+    }
+
+    public void setLikedSongs(String likedSongs) {
+        this.likedSongs = likedSongs;
+    }
+
+    public String getCurrentPlan() {
+        return currentPlan;
+    }
+
+    public void setCurrentPlan(String currentPlan) {
+        this.currentPlan = currentPlan;
+    }
+
 }
